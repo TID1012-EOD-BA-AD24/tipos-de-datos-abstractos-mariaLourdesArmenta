@@ -21,6 +21,7 @@ public class Punto{
 	   }
 	   public int getX() {
 		   //coloca el codigo faltante
+		   return x;
 		}
 		public int getY() {
 		   return y;
@@ -58,6 +59,7 @@ public class Punto{
 			double d;
 			d = Math.sqrt(Math.pow(p.x-this.x,2) + Math.pow(p.y-this.y,2));
 			//coloca aquí el código faltante
+			return d;
 		}
 		
 
